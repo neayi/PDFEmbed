@@ -30,10 +30,13 @@
 		"pdf"
 	],
 	"config": {
-		"PdfEmbed": {
-			"width": 800,
-			"height": 1090
+		"PdfEmbed":{
+			"public": true,
+			"value": {
+				"width": 800,
+				"height": 1090
+			}
 		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
