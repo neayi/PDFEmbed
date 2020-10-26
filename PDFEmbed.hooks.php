@@ -36,7 +36,7 @@ class PDFEmbed {
 	 */
 	static public function generateTag($file, $args = [], Parser $parser, PPFrame $frame) {
 		global $wgPdfEmbed, $wgRequest, $wgUser;
-		$parser->disableCache();
+		$parser->getOutput()->updateCacheExpiry( 0 );
 
 		if (strstr($file, '{{{') !== false) {
 			$file = $parser->recursiveTagParse($file, $frame);
