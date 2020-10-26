@@ -62,9 +62,21 @@ class PDFEmbed {
 
 		$file = wfFindFile(Title::newFromText($file));
 
-		$width  = (array_key_exists('width', $args) ? intval($args['width']) : intval($wgPdfEmbed['width']));
-		$height = (array_key_exists('height', $args) ? intval($args['height']) : intval($wgPdfEmbed['height']));
-		$page = (array_key_exists('page', $args) ? intval($args['page']) : 1);
+		if (array_key_exists('width', $args)) {
+			$width = intval($parser->recursiveTagParse($args['width'], $frame));
+		} else {
+			$width = intval($wgPdfEmbed['width']);
+		}
+		if (array_key_exists('height', $args)) {
+			$height = intval($parser->recursiveTagParse($args['height'], $frame));
+		} else {
+			$height = intval($wgPdfEmbed['height']);
+		}
+		if (array_key_exists('page', $args)) {
+			$page = intval($parser->recursiveTagParse($args['page'], $frame));
+		} else {
+			$page = 1;
+		}
 
 		if ($file !== false) {
 			return self::embed($file, $width, $height, $page);
