@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr-Taher"
+		]
+	},
+	"pdfembed": "تضمين PDF",
+	"embed_pdf_invalid_file": "عنوان URL أو مسار الملف المحدد غير موجود.",
+	"right-embed_pdf": "تضمين ملفات PDF في الصفحات"
+}
