@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"action-embed_pdf": "pdf's insluiten",
+	"embed_pdf_no_permission": "U hebt geen rechten om pdf bestanden in te sluiten.",
+	"embed_pdf_blank_file": "De URL of het bestandspad dat is opgegeven om een PDF in te sluiten is leeg.",
+	"embed_pdf_invalid_file": "De opgegeven URL of het opgegeven bestandspad bestaat niet.",
+	"right-embed_pdf": "PDF's mogen insluiten in pagina's"
+}
