@@ -7,7 +7,6 @@
 		]
 	},
 	"action-embed_pdf": "PDFs einbetten",
-	"pdfembed": "PDF Embed",
 	"pdfembed_description": "Ermöglicht das Einbetten von PDF-Dateien",
 	"embed_pdf_no_permission": "Du bist nicht berechtigt PDF-Dateien einzubetten.",
 	"embed_pdf_blank_file": "Die URL bzw. der Dateipfad zum Einbetten der PDF-Datei ist leer.",
