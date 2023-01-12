@@ -11,5 +11,5 @@
 	"embed_pdf_blank_file": "URL ali pot do datoteke, podana za vdelavo PDF-ja, je prazna.",
 	"embed_pdf_invalid_file": "Navedeni URL ali pot do datoteke ne obstaja.",
 	"embed_pdf_invalid_user": "Za testiranje dovoljenj za vdelavo tega PDF-ja je bil določen neveljaven uporabnik.",
-	"right-embed_pdf": "Vdelajte PDF-je v strani"
+	"right-embed_pdf": "Vdelovanje PDF-jev v strani"
 }
