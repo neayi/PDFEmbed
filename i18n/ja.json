@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Buehl",
+			"Mugenpman"
+		]
+	},
+	"action-embed_pdf": "PDFを埋め込む",
+	"embed_pdf_no_permission": "PDFファイルを埋め込む権限がありません。",
+	"right-embed_pdf": "PDFをページじ挿入"
+}
