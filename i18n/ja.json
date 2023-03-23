@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Buehl",
-			"Mugenpman"
+			"Mugenpman",
+			"春春眠眠"
 		]
 	},
 	"action-embed_pdf": "PDFを埋め込む",
 	"embed_pdf_no_permission": "PDFファイルを埋め込む権限がありません。",
-	"right-embed_pdf": "PDFをページじ挿入"
+	"right-embed_pdf": "PDFをページに挿入"
 }
