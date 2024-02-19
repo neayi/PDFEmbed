@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pisceskaze"
+		]
+	},
+	"action-embed_pdf": "nhúng tệp PDF",
+	"pdfembed_description": "Phần mở rộng xử lý phương tiện cho tệp PDF.",
+	"embed_pdf_no_permission": "Bạn không có quyền nhúng tệp PDF.",
+	"embed_pdf_blank_file": "URL hoặc đường dẫn tệp được cung cấp để nhúng tệp PDF trống.",
+	"embed_pdf_invalid_file": "URL hoặc đường dẫn tệp đã cho không tồn tại.",
+	"embed_pdf_invalid_user": "Một người dùng không hợp lệ đã được chỉ định để kiểm tra quyền nhúng tệp PDF này.",
+	"right-embed_pdf": "Nhúng tệp PDF vào các trang"
+}
