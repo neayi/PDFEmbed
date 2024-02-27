@@ -49,7 +49,7 @@ class PDFEmbedHooks {
 			return self::error( 'embed_pdf_no_permission' );
 		}
 
-		if ( empty( $file ) || !preg_match( '#(.+?)\.pdf#is', $file ) ) {
+		if ( !$file || !preg_match( '#(.+?)\.pdf#is', $file ) ) {
 			return self::error( 'embed_pdf_blank_file' );
 		}
 
