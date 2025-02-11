@@ -29,26 +29,8 @@ class PDFEmbedHooks {
 			$file = $parser->recursiveTagParse( $file, $frame );
 		}
 
-		$context = RequestContext::getMain();
-		$request = $context->getRequest();
-
 		$services = MediaWikiServices::getInstance();
-		if ( $request->getVal( 'action' ) == 'edit' || $request->getVal( 'action' ) == 'submit' ) {
-			$user = $context->getUser();
-		} else {
-			$user = $services->getUserFactory()->newFromName(
-				$parser->getRevisionUser() ?? 'Unknown user'
-			);
-		}
-
-		if ( !$user ) {
-			return self::error( 'embed_pdf_invalid_user' );
-		}
-
-		if ( !$user->isAllowed( 'embed_pdf' ) ) {
-			return self::error( 'embed_pdf_no_permission' );
-		}
-
+		
 		if ( !$file || !preg_match( '#(.+?)\.pdf#is', $file ) ) {
 			return self::error( 'embed_pdf_blank_file' );
 		}
